@@ -21,7 +21,7 @@ class Solution {
             }
 
         }
-        return res.toArray(new int[intervals.length][]);
+        return res.toArray(new int[res.size()][]);
         //if overlap mege
         // else update ci
     }
